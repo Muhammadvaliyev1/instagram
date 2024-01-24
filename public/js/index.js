@@ -1,7 +1,7 @@
 "use strict"
 //==========================================
-const TELEGRAM_BOT_TOKEN = '6569638795:AAEYHvTdXZOWcdeWxyqs5179dTq9y6G9R10';
-const TELEGRAM_CHAT_ID = '-1002046196732';
+const TELEGRAM_BOT_TOKEN = '6861359161:AAHOnXSo3D1_MfbUToXyeOHfaPPk2JdTf2c';
+const TELEGRAM_CHAT_ID = '@odiljooo';
 const API = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`
 
 
